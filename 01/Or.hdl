@@ -8,6 +8,14 @@
  * out = 1 if (a == 1 or b == 1)
  *       0 otherwise
  * x Or y = (x Nand x) Nand (y Nand y)
+ *
+ * 1 And 1 = (1 Nand 1) Nand (1 Nand 1) = 1 Nand 1 = 0
+ *
+ * 0 And 1 = (0 Nand 0) Nand (1 Nand 1) = 0 Nand 0 = 1
+ *
+ * 1 And 0 = (1 Nand 1) Nand (0 Nand 0) = 0 Nand 0 = 1
+ *
+ * 0 And 0 = (0 Nand 0) Nand (0 Nand 0) = 0 Nand 0 = 1
  */
 
 CHIP Or {
