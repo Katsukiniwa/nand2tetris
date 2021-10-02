@@ -19,3 +19,5 @@ Nand関数はxとyが共に1の時のみ0になり、それ以外は1になる
 |  |  |  |  |  |
 
 Nand関数の逆なのでxとyが共に1の時のみ1になり、それ以外は0になる
+
+[ひとりNand2Tetris(1) -NANDから他のゲートを作る](http://blog.tojiru.net/article/426426278.html)
